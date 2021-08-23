@@ -18,8 +18,9 @@
                     consequatur provident ullam quo.
                 </p>
                 <div class="flex justify-center flex-wrap gap-6">
-                    <button type="button" class="btn bg-gradient-to-r
-                                        from-purple-600 to-blue-500 text-white hover:bg-white hover:text-black">
+                    <button type="button"
+                        class="btn bg-gradient-to-r
+                                                                                                                                                                                                                                                                                                                                                                                                                                            from-purple-600 to-blue-500 text-white hover:bg-white hover:text-black">
                         Email now
                     </button>
                 </div>
@@ -353,7 +354,7 @@
     <section class="container pt-32">
         <div
             class="flex flex-col md:flex-row bg-gradient-to-r
-                                        from-purple-600 to-blue-500 px-16 py-20 rounded-3xl justify-between max-w-6xl mx-auto">
+                                                                                                                                                                                                                                                                                                                                                                                                                                            from-purple-600 to-blue-500 px-16 py-20 rounded-3xl justify-between max-w-6xl mx-auto">
             <div>
                 <h1 class="text-3xl font-bold text-white">Lorem ipsum dolor, sit amet consectetur adipisicing.</h1>
             </div>
@@ -367,6 +368,46 @@
             </div>
         </div>
     </section>
+
+    {{-- footer --}}
+
+    <footer class="pt-36 mb-10">
+        <div class="flex flex-col md:flex-row justify-between text-center md:text-start">
+            <div>
+                <h1 class="text-2xl font-semibold pt-5">logo.</h1>
+                <p class="text-gray-500 py-5">1920 Holden Street San Deig. CA 9182</p>
+                <p class="pb-5">Call us: +62 918092810</p>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+            <div>
+                <h1 class="font-semibold pb-3">Take a Tutor</h1>
+                <p class="text-gray-500 pb-3">Feature</p>
+                <p class="text-gray-500 pb-3">Pricing</p>
+                <p class="text-gray-500 pb-3">Product</p>
+                <p class="text-gray-500 pb-3">Support</p>
+            </div>
+            <div>
+                <h1 class="font-semibold pb-3">Our Company</h1>
+                <p class="text-gray-500 pb-3">About us</p>
+                <p class="text-gray-500 pb-3">Blog</p>
+                <p class="text-gray-500 pb-3">Media</p>
+                <p class="text-gray-500 pb-3">Contact Us</p>
+            </div>
+            <div>
+                <h1 class="font-semibold pb-3">Subscribe</h1>
+                <p class="text-gray-500 pb-3">subscribe to get the latest news from us</p>
+                <div
+                    class="flex w-full col-span-2 mt-5 md:mt-0 md:col-span-1 mx-auto md:order-2 bg-white rounded-lg shadow-md pl-3 pr- py-3 row-start-2 row-end-3 md:row-span-2 justify-between">
+                    <input class="focus:outline-none" type="text" placeholder="Email Address" onchange="inputTyping">
+                    <i class="fa fa-arrow-right  justify-center mr-3"></i>
+                </div>
+            </div>
+        </div>
+        <p class="mt-10 text-center">Copy right, by Bilal</p>
+
+    </footer>
 
     <script>
         var slideIndex = 1;
